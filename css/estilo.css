@@ -1,3 +1,18 @@
+@font-face {
+    font-family: ellen;
+    src: url(Alice_in_Wonderland_3.ttf);
+}
+
+@font-face {
+    font-family: ellen2;
+    src: url(Deuxieme_Rang.otf);
+}
+
+:root {
+    --font1: ellen;
+    --font2: ellen2;
+}
+
 body {
     background-color:#6AF763 ;
     font-family: monospace, 'Courier New', Courier;
@@ -13,11 +28,14 @@ div {
 
 h1{
     color:#11750C ;
+    font-family: var(--font1);
 }
 
 body p{
     color: #0a6405;
     text-align: justify;
+    font-family: var(--font2);
+   
 }
 
 ul li a {
