@@ -1,0 +1,34 @@
+body {
+    background-color:#6AF763 ;
+    font-family: monospace, 'Courier New', Courier;
+    width: 300px;
+    max-width: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+}
+
+h1{
+    color:#11750C ;
+}
+
+body p{
+    color: #0a6405;
+    text-align: justify;
+}
+
+ul li a {
+    color: #198511;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #11750C;
+    border-style: solid;
+}
+   

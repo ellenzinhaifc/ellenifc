@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Ellen;
+    src: url(ELEGANT\ TYPEWRITER\ Regular.ttf);
+}
+
+
+
+:root {
+    --cor-fundo: #D96704;
+    --cor-título:#1D1459;
+    --cor-paragrafo: #4D3FA6;
+    --cor-link: #F2CB05;
+    --cor-borda:#F2E205 ;
+    --font: Ellen;
+}
+
+body {
+    font-family:var(--font);
+    background-color: var(--cor-fundo) ;
+    width: 300px;
+    max-width: 100;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.imagem {
+    text-align: center;
+}
+
+h1 {
+    color: #1D1459;
+}
+
+body p{
+    color:#4D3FA6 ;
+    text-align: justify;
+}
+
+ul li a {
+    color:#F2CB05;
+     
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color:#F2E205 ;
+    border-style: solid;
+}
+   
